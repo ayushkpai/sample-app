@@ -1,24 +1,25 @@
-# README
+# Sample app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Open your terminal and clone this repository
 
-Things you may want to cover:
+  First make sure you have a ssh key if you dont have go to my dotfiles repository and follow the instructions
 
-* Ruby version
+  ```
+  git clone git@github.com:ayushkpai/sample-app.git
+  ```
 
-* System dependencies
+- Next install ruby and rails
 
-* Configuration
+  Also documented in dotfiles
 
-* Database creation
+- To run the project
 
-* Database initialization
+  ```
+  rails server
+  ```
 
-* How to run the test suite
+  Or you can use the shortcut
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  ```
+  rails s
+  ```
