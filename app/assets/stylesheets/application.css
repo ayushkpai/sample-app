@@ -94,6 +94,7 @@ footer a {
 
 footer a:hover {
   color: #333;
+  text-decoration: none;
 }
 
 footer small {
@@ -133,4 +134,18 @@ footer ul li {
 .jumbotron .btn {
   font-size: 1.5em;
   padding: 10px 20px;
+}
+
+a {
+  color: aqua;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(127, 148, 255);
+  text-decoration: underline;
+}
+
+.btn:hover {
+  text-decoration: none;
 }
