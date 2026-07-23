@@ -72,6 +72,7 @@ p {
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 #logo:hover {
@@ -82,16 +83,17 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #ccc; /* Replace with your desired color */
-  color: #999; /* Replace with your desired color */
+  border-top: 1px solid #ccc;
+  color: #999;
 }
 
 footer a {
-  color: #777; /* Replace with your desired color */
+  color: #777;
+  text-decoration: none;
 }
 
 footer a:hover {
-  color: #333; /* Replace with your desired color */
+  color: #333;
 }
 
 footer small {
