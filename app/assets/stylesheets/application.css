@@ -10,7 +10,10 @@
  */
 
 body {
-  padding-top: 60px;
+  padding-top: 70px;
+  background: #0f172a;
+  color: #e2e8f0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 section {
@@ -26,7 +29,7 @@ textarea {
 }
 
 .center h1 {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 h1,
@@ -35,65 +38,75 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1;
+  line-height: 1.2;
+  color: #f8fafc;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3.2em;
   letter-spacing: -2px;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   text-align: center;
+  font-weight: 800;
 }
 
 h2 {
-  font-size: 1.2em;
-  letter-spacing: -1px;
-  margin-bottom: 30px;
+  font-size: 1.25em;
+  letter-spacing: -0.5px;
+  margin-bottom: 28px;
   text-align: center;
-  font-weight: normal;
-  color: #777;
+  font-weight: 400;
+  color: #94a3b8;
 }
 
 p {
-  font-size: 1.1em;
-  line-height: 1.7em;
+  font-size: 1.05em;
+  line-height: 1.75;
+  color: #cbd5e1;
 }
 
 .navbar {
   margin-bottom: 20px;
+  background: rgba(15, 23, 42, 0.9);
+  border: 0;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12px);
 }
 
 #logo {
   float: left;
-  margin-right: 10px;
-  font-size: 1.7em;
-  color: white;
+  margin-right: 14px;
+  font-size: 1.65em;
+  color: #f8fafc;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
-  font-weight: bold;
+  font-weight: 800;
   text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 #logo:hover {
-  color: white;
+  color: #38bdf8;
   text-decoration: none;
+  transform: translateY(-1px);
 }
 
 footer {
-  margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid #ccc;
-  color: #999;
+  margin-top: 60px;
+  padding-top: 18px;
+  border-top: 1px solid #334155;
+  color: #64748b;
 }
 
 footer a {
-  color: #777;
+  color: #94a3b8;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 footer a:hover {
-  color: #333;
+  color: #38bdf8;
   text-decoration: none;
 }
 
@@ -104,48 +117,78 @@ footer small {
 footer ul {
   float: right;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 footer ul li {
   float: left;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 .jumbotron {
-  padding: 60px;
-  margin-top: 20px;
-  background-color: #eeeeee;
-  border-radius: 6px;
+  padding: 70px 50px;
+  margin-top: 30px;
+  background:
+    radial-gradient(circle at top right, rgba(56, 189, 248, 0.15), transparent 35%),
+    linear-gradient(135deg, #1e293b, #0f172a);
+  border: 1px solid #334155;
+  border-radius: 20px;
   text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
 }
 
 .jumbotron h1 {
   font-size: 4em;
-  letter-spacing: -2px;
-  margin-bottom: 30px;
+  letter-spacing: -3px;
+  margin-bottom: 24px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #f8fafc, #38bdf8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .jumbotron h2 {
-  color: #777;
+  color: #94a3b8;
   font-size: 1.2em;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
 .jumbotron .btn {
-  font-size: 1.5em;
-  padding: 10px 20px;
+  font-size: 1.1em;
+  padding: 12px 26px;
+  border: 0;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #0ea5e9, #2563eb);
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
+  transition: all 0.25s ease;
+}
+
+.jumbotron .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(37, 99, 235, 0.45);
 }
 
 a {
-  color: aqua;
+  color: #38bdf8;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a:hover {
-  color: rgb(127, 148, 255);
-  text-decoration: underline;
+  color: #7dd3fc;
+  text-decoration: none;
+}
+
+.btn {
+  border-radius: 10px;
+  transition: all 0.2s ease;
 }
 
 .btn:hover {
   text-decoration: none;
+  transform: translateY(-1px);
 }
