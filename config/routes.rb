@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root "static_pages#home"
   get "up" => "rails/health#show", as: :rails_health_check
 
+  resources :users
   get "help" => "static_pages#help"
   get "about" => "static_pages#about"
   get "contact" => "static_pages#contact"
